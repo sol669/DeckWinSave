@@ -1,0 +1,9 @@
+WinSCP 6.7.1
+Copyright (c) 2000–2026 Martin Přikryl.
+
+WinSCP.exe is distributed under the GPL, version 3 or later. See WinSCP-license.txt.
+WinSCPnet.dll is distributed under the Mozilla Public License 2.0. See WinSCP-dotnet-license.txt.
+
+Corresponding source for these versions is available without charge:
+https://sourceforge.net/projects/winscp/files/WinSCP/6.7.1/WinSCP-6.7.1-Source.zip/download
+https://github.com/winscp/winscp/tree/6.7.1
