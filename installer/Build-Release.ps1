@@ -25,7 +25,7 @@ foreach ($variant in @(
     $archive = Join-Path $build "DeckWinSave-Portable-$($variant.Name)-v$version-win-x64.zip"
     [IO.Compression.ZipFile]::CreateFromDirectory($payload, $archive, [IO.Compression.CompressionLevel]::Optimal, $false)
     $flags = $variant.InstallerFlag
-    & $isccPath /Qp "/O$build" "/DPublishDir=$payload" @flags $installer
+    & $isccPath /Qp "/O$build" "/DAppVersion=$version" "/DPublishDir=$payload" @flags $installer
     if ($LASTEXITCODE -ne 0) { throw "Installer compilation failed for $($variant.Name)." }
 }
 

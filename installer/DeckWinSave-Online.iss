@@ -1,6 +1,9 @@
 #define AppName "DeckWinSave"
-#define AppVersion "0.0.1"
 #define AppExe "DeckWinSave.exe"
+
+#ifndef AppVersion
+  #define AppVersion "1.0.0"
+#endif
 
 #ifndef PublishDir
   #define PublishDir "..\publish-light"

@@ -120,6 +120,8 @@ ip -4 -br address show type wireguard
 
 ## Интерфейс
 
+Скриншоты тестовой сборки.
+
 ![Настройки подключения DeckWinSave](Docs/images/settings.png)
 
 ![Синхронизация сохранений в DeckWinSave](Docs/images/game-sync.png)

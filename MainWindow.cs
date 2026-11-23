@@ -91,7 +91,7 @@ internal sealed class MainWindow : Window
         Grid.SetColumn(content, 1);
         layout.Children.Add(content);
         var copyright = new StackPanel { Margin = new Thickness(28, 10, 10, 18), Spacing = 0 };
-        copyright.Children.Add(Text("DeckWinSave 0.0.1", muted: true));
+        copyright.Children.Add(Text($"DeckWinSave {typeof(MainWindow).Assembly.GetName().Version!.ToString(3)}", muted: true));
         var credits = new StackPanel { Orientation = Orientation.Horizontal, Spacing = 4 };
         credits.Children.Add(Text("sol669 ·", muted: true));
         credits.Children.Add(new HyperlinkButton { Content = "GitHub", NavigateUri = new Uri("https://github.com/sol669/DeckWinSave"),
